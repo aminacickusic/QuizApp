@@ -1,0 +1,22 @@
+.btn-circle-quiz-start {
+	width: 22vh;
+	height: 22vh;
+	padding: 0;
+	text-align: center;
+	line-height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border: 5px solid #e53270;
+}
+
+.btn-circle-quiz-start i {
+	vertical-align: middle;
+}
+
+.quiz-start-icon {
+	width: 22vh;
+	height: 22vh;
+	border: 5px solid #e53270;
+}

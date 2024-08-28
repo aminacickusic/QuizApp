@@ -1,0 +1,49 @@
+body {
+	background-color: #f4f9ff;
+}
+
+
+
+#how-to-play-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.header-instructions {
+	font-size: 30px;
+	font-weight: 600;
+	color: #e53270;
+	text-align: center;
+	
+	
+}
+
+.text-how-to-play {
+	font-size: 21px;
+	text-align: center;
+	font-weight: 200;
+}
+
+.gif-div {
+	display: flex;
+	
+}
+
+.gif-div img {
+	width: 30%;
+	height: 17vh;
+}
+
+.naslov {
+	text-align: center;
+}
+
+#question_mark {
+	height: 14vh;
+	width: 20%;
+}
+

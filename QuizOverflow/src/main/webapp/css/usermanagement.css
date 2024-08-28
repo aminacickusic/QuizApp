@@ -1,0 +1,100 @@
+.my-dialog {
+	width: 60%;
+	
+}
+
+
+.my-delete-dialog {
+	width: 40%;
+}
+
+
+.user-pushable-button {
+	background-color: white;
+	color: #e53270;
+	border: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.user-pushable-button:hover {
+	background-color: #c1275e;
+	color: white;
+}
+
+.user-pushable-button:active {
+	transform: translateY(2px);
+	box-shadow: 0 5px #999;
+}
+
+
+
+
+.div-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	padding-right: 20px;
+}
+
+
+.sort {
+	width: 50px;
+	height: 30px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    color: #e53270;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination .page-link:hover {
+    background-color: #ddd;
+}
+
+.pagination .active .page-link {
+    background-color:#e53270;;
+    color: white;
+    border-color: #e53270;;
+}
+
+.input-container {
+    position: relative;
+  }
+
+  .input-container input {
+    width: 100%;
+    padding-right: 30px; 
+  }
+
+  .input-container .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+

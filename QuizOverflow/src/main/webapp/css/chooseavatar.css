@@ -1,0 +1,113 @@
+.btn-circle {
+	width: 15vh;
+	height: 15vh;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.btn-circle:hover {
+	width: 19vh;
+	height: 19vh;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 5px solid #e53270;
+}
+
+.btn-circle i {
+	vertical-align: middle;
+}
+
+.avatar-icon {
+	width: 15vh;
+	height: 15vh;
+	border-radius: 50%;
+}
+
+.avatar-icon:active {
+	border: 5px solid red;
+}
+
+.avatar-icon:hover {
+	width: 19vh;
+	height: 19vh;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 5px solid #e53270;
+}
+
+.avatars {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.avatars-row {
+	width: 70%;
+	height: 19vh; display : flex;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.avatar-row-element {
+	width: 25%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.continue-button {
+	width: 20%;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	display: inline-block;
+}
+
+.front1 {
+	display: block;
+	position: relative;
+	padding: 5px 27px;
+	border-radius: 12px;
+	font-size: 1.5em;
+}
+
+.button-outer {
+	margin-top: 50px;
+	position: relative;
+	width: 100%;
+}
+
+.active-border {
+	border: 5px solid #e53270;
+}
+
+.choose-avatar {
+	width: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	font-style: italic;
+	color: #e53270;
+}
+
+
+
